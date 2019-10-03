@@ -1,182 +1,116 @@
+<?php include './includes/functions.php'; ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Zanfanjinba</title>
-    <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+  <?php head('./'); ?>
   <body>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-      crossorigin="anonymous"
-    />
-    <header>
-      <nav id="navbar">
-        <ul>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#Contact_Me">Contact Me</a></li>
-        </ul>
-      </nav>
-    </header>
-
+    <?php headerSection('./', 'Team Piccolo Global Enterprises', 'Never let a Customer leave without putting a smile on his face', 'Malam Kabir Yusuf Bashir', 'C.E.O Team Piccolo'); ?>
     <main>
-
-      <section id="welcome-section">
-        <div class="about-me-yusuf">
-          <img src="./images/yusuf.jpg" alt="Kabir Yusuf Bashir">
-            <h1>Hey, I am Kabir Yusuf Bashir</h1>
-            <article>
-              <p>
-                <i>
-                  An Information Technologist with specialization in Web Development</p>
-                </i>
-            </article>
-            <article class="padding">
-              <p>
-                My name is Kabir Yusuf Bashir from the family of Bashir Ibrahim Dan-Iya Kano, born on the 27th of July 1993 in Minjibir Local Government Kano State, Nigeria. I attended Wonderful Nursery and Primary School Garki, Abuja. I then moved to Community Nursery and Primary School Asokoro, Abuja. After completing my Primary School education, I then moved to Command Day Secondary School Maitama, where I completed my Secondary School education. Towards ending the year of 2012, I moved to Accra Ghana for my Bachelor Degree program where I studied Information Technology (I.T).
-              </p>
-              <p>
-                I specialized in Programming, Web programming to be precise. I have developed a lot of application like Hospital Management System, Examination Management System, Election Management System, Car Rental System, Newspaper Management System, Social Network (Membership Site), Memorization Tester (Quran) and currently working on School Management System.
-              </p>
-              <p>
-                Currently the CEO of Team Piccolo and Operations Executive (IT) of The Pyramid Newspaper, Tutoring Web Development.
-              </p>
-            </article>
-        </div>
-      </section>
-
-      <section id="skills">
-        <h2>
-          <center>Skills</center>
-        </h2>
-
-        <div class="col-half">
-          HTML5 & CSS3<br>
-          <div class="skills-bar" style="background:green; width: 95%;">95%</div>
-          Javascript & jQuery<br>
-          <div class="skills-bar" style="background:blue; width: 75%;">75%</div><br><br>
-          PHP & MySQL<br>
-          <div class="skills-bar" style="background:red; width: 90%;">90%</div><br><br>
-          Graphic Design<br>
-          <div class="skills-bar" style="background:#09a7a1; width: 60%;">60%</div><br><br>
-        </div>
-      </section>
-
-      <section id="projects">
-        <div class="projects-web-app">
-
-          <h2>
-            <center>Projects</center>
-          </h2>
-
-          <div class="col-half">
-            <h3><center>Web Application</center></h3>
-
-            <div>
-              <article class="padding">
-                <iframe src="https://www.youtube.com/embed/fbbyVlp8bMM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <h3>Membership Management System</h3>
-              </article>
-            </div>
-
-            <div>
-              <article class="padding">
-                <iframe src="https://www.youtube.com/embed/JsiyCoe1J9s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h3>School Management System</h3>
-              </article>
-            </div>
-
-            <div>
-              <article class="padding">
-                <iframe src="https://www.youtube.com/embed/RbqZpVmZ1-M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h3>Hospital Management System</h3>
-              </article>
-            </div>
-
-            <div>
-              <article class="padding">
-                <iframe src="https://www.youtube.com/embed/I5zNk4AOqss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h3>Questionnaire Management System</h3>
-              </article>
-            </div>
-
-            <div>
-              <article class="padding">
-                <iframe src="https://www.youtube.com/embed/JiSzzeXLHCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h3>Examination Management System</h3>
-              </article>
-            </div>
-
+      <section id="about-team-piccolo">
+        <div class="col-full">
+          <div class="col-fill">
+            <img src="./images/ceo.jpg" alt="Kabir Yusuf Bashir CEO Team Piccolo">
+            <p>Malam Kabir Yusuf Bashir <br> CEO Team Piccolo Global Enterprises</p>
           </div>
-
-          <div class="col-half">
-            <h3><center>Web Design</center></h3>
-
-            <div class="col-quarter">
-              <article>
-                <a class="project-tile" href="https://codepen.io/kabiryusufbashir/pen/QWLvQPe"><img src="./images/personal.jpg" alt="Personal Portfolio Page"></a>
-                <h3>Personal Portfolio Page</h3>
-              </article>
-            </div>
-
-            <div class="col-quarter">
-              <article>
-                <a class="project-tile" href="https://codepen.io/kabiryusufbashir/pen/zYOZvNW"><img src="./images/technical.jpg" alt="Technical Documentation Page"></a>
-                <h3>Technical Documentation Page</h3>
-              </article>
-            </div>
-            <div style="clear:both;"></div>
-            <div class="col-quarter">
-              <article>
-                <a class="project-tile" href="https://codepen.io/kabiryusufbashir/pen/zYOozOL"><img src="./images/survey.jpg" alt="Survey Form"></a>
-                <h3>Survey Form Page</h3>
-              </article>
-            </div>
-
-            <div class="col-quarter">
-              <article>
-                <a class="project-tile" href="https://codepen.io/kabiryusufbashir/pen/WNeoegG"><img src="./images/tribute.jpg" alt="Tribute Page"></a>
-                <h3>Tribute Page (Dr. Isah Ali Pantami)</h3>
-              </article>
-            </div>
-
+          <div class="col-extra">
+            <p>Team Piccolo Global Enterprises is registered with Corporate Affairs Commission (C.A.C) under COMPANIES AND ALLIED MATTERS ACT 1990 on the 25th day of November, 2016 with a Business Number (B.N) 2462226.</p>
+            <p>Over the years, Team Piccolo Global Enterprises has grown to a major ICT solution and Academic Writing provider in Nigeria and Africa, with major projects realized in different parts of the country and region.</p>
+            <p>We assist different organizations and individuals achieve their objectives through the state-of-the-art solutions we provide. We are passionate about supporting persons attaining their goal. We growing our business and driving operational excellence while making a positive impact on our community.</p>
           </div>
-
         </div>
-
+        <div class="col-full">
+          <div class="col-extra">
+            <p>We aim to be our customers first choice in every area we serve by exceeding commitments, providing new technology solutions, leveraging our diverse brands, driving operational excellence, and committing to the highest standards of business practices all of which will drive Team Piccolo Global Enterprises long-term growth, value and success.</p>
+            <p>Our team comprises of trained and certified experts in engineering and academic work, a number of whom have had experience of working on international: project design, management, implementation roles, and given academic talks. This team of engineers are assisted by support teams in the process of design, procurement, delivery and quality control to ensure that we provide value for every client, every time.</p>
+          </div>
+          <div class="col-fill">
+            <img src="./images/cto.jpg" alt="Abba Jime Mustapha CTO Team Piccolo">
+            <p>Engr Abba Mustapha Jime <br> CTO Team Piccolo Global Enterprises</p>
+          </div>
+        </div>
       </section>
-
+      <section id="our-services">
+        <h2>Our Services</h2>
+        <div class="col-quarter">
+          <img src="./images/web-design.png" alt="Web Design Image">
+          <h3>Web &amp; Mobile Development</h3>
+          <article>
+            <ul>
+              <li>Web Design</li>
+              <li>Web Hosting</li>
+              <li>Web Development Training</li>
+              <li>Android Application</li>
+            </ul>
+          </article>
+        </div>
+        <div class="col-quarter">
+          <img src="./images/networking.png" alt="Web Design Image">
+          <h3>Hardware and Networking</h3>
+          <article>
+            <ul>
+              <li>Installation of Operating System Software</li>
+              <li>System Familiarisation</li>
+              <li>Assembly and Dis-assembly of Computers</li>
+              <li>Servicing of Computer Peripheries</li>
+              <li>Troubleshooting and Fault Diagnostics</li>
+            </ul>
+          </article>
+        </div>
+        <div class="col-quarter">
+          <img src="./images/graphics.png" alt="Web Design Image">
+          <h3>Graphic Design</h3>
+          <article>
+            <ul>
+              <li>Logo</li>
+              <li>Flyer</li>
+              <li>Banner</li>
+              <li>Company Branding</li>
+              <li>And lots more</li>
+            </ul>
+          </article>
+        </div>
+        <div class="col-quarter">
+          <img src="./images/writing.png" alt="Web Design Image">
+          <h3>Academic Writing</h3>
+          <article>
+            <ul>
+              <li>How best to write your PG thesis and dissertation</li>
+              <li>Writing article and conference paper</li>
+              <li>Understanding your research data and statistics</li>
+              <li>Understanding and reducing plagiarism (use of turnitin, plagiarism checker)</li>
+              <li>Mastering and accessing referencing manager software such as EndNote, Mendale</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <section id="client">
+        <h2>Our Clients</h2>
+        <div class="col-one-fifth">
+          <img src="./images/alkab.png" alt="Alkab Bashir Investment Website">
+          <h4>Alkab Bashir Investment Ltd</h4>
+        </div>
+        <div class="col-one-fifth">
+          <img src="./images/gats.ico" alt="Global Avaition and Transport Services Website">
+          <h4>Global Aviation and Transport Services</h4>
+        </div>
+        <div class="col-one-fifth">
+          <img src="./images/kicoe.ico" alt="Kashim Ibrahim College of Education Website">
+          <h4>Kashim Ibrahim College of Education Maiduguri</h4>
+        </div>
+        <div class="col-one-fifth">
+          <img src="./images/mwt.ico" alt="Ministry of Works and Transport Maiduguri Website">
+          <h4>Ministry of Works and Transport Borno State</h4>
+        </div>
+        <div class="col-one-fifth">
+          <img src="./images/thepyramid.png" alt="The Pyramid Newspaper Website">
+          <h4>The Pyramid Newspaper</h4>
+        </div>
+        <div class="col-one-fifth">
+          <img src="./images/zfj.png" alt="Hon Adamu Alhaji Lawal Website">
+          <h4>Hon. Adamu Alhaji Lawal</h4>
+        </div>
+      </section>
     </main>
-
-    <footer id="Contact_Me">
-      <div class="contact-links">
-        <a
-          href="https://web.facebook.com/sunusiyusuf93"
-          target="_blank"
-          class="btn contact-details"
-          ><i class="fab fa-facebook-square"></i> Facebook</a
-        >
-        <a
-          id="profile-link"
-          href="https://github.com/kabiryusufbashir"
-          target="_blank"
-          class="btn contact-details"
-          ><i class="fab fa-github"></i> GitHub</a
-        >
-        <a
-          href="https://twitter.com/yusufkabir"
-          target="_blank"
-          class="btn contact-details"
-          ><i class="fab fa-twitter"></i> Twitter</a
-        >
-        <a href="mailto:kabiryusufbashir@gmail.com" class="btn contact-details"
-          ><i class="fas fa-at"></i> Send a mail</a
-        >
-      </div>
-    </footer>
+    <?php footer('./', 'bg-white'); ?>
+    <?php linkJs('./'); ?>
   </body>
 </html>
