@@ -11,7 +11,7 @@
     </head>';
   }
 
-  function headerSection($path, $sloganHeading, $sloganTitle, $sloganAuthor, $sloganRank){
+  function headerSection($path, $sloganHeading, $sloganTitle, $sloganAuthor){
     echo
     '<header>
       <div class="header-content">
@@ -38,7 +38,6 @@
         <h1>'.$sloganHeading.'</h1>
         <h2>"'.$sloganTitle.'"</h2>
         <h3>'.$sloganAuthor.'</h3>
-        <h4><i>'.$sloganRank.'</i></h4>
       </div>
     </header>';
   }
@@ -47,7 +46,7 @@
     echo '
     <footer class="'.$background.'">
        <p>
-         Team Piccolo Global Enterprises Copyright &copy; '.date('Y').' All Rights Reserved
+         Designed by <a style="font-size:14px;" href="https://teampiccolo.com">Team Piccolo Global Enterprises</a> Copyright &copy; '.date('Y').' All Rights Reserved
       </p>
       <div class="contact-links">
         <a
